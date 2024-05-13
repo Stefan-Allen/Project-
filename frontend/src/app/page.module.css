@@ -1,0 +1,532 @@
+.OverflowY {
+
+}
+
+.content {
+    margin-top: 30vh;
+    text-align: center;
+}
+
+.content2 {
+    margin-top: 2vh;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 5vh;
+    padding: 5px;
+    margin-left: 44.5%;
+}
+
+.button {
+    margin: 0 10px;
+    background-color: #34adad;
+    color: white;
+    padding: 1vh;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #2c8a8a;
+}
+
+.title {
+    text-align: center;
+    padding: 4vh;
+}
+
+.content {
+    line-height: 1.6;
+    height: 64vh;
+}
+
+.h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+
+.p {
+    margin-bottom: 5vh;
+
+}
+
+.roundedbutton {
+    padding: 10px 10px;
+    border-radius: 50px;
+    border: black 1px;
+    width: 80%;
+    background-color: #dedede;
+    margin-left: 10%;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 2vh;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.mainheadingHome {
+    font-size: 28px;
+    margin-top: -20vh;
+    font-weight: bold;
+}
+
+.heading {
+    font-size: 18px;
+    margin-top: 2vh;
+    font-weight: normal;
+    margin-bottom: 3vh;
+}
+
+.heading1 {
+    font-size: 14px;
+
+    font-weight: normal;
+    margin-bottom: 2.5vh;
+}
+
+.RealtimePollutionData {
+    color: black;
+}
+
+.map {
+    margin-left: 37%;
+    margin-bottom: 10vh;
+}
+
+.MapAlign {
+    text-align: center;
+    margin-top: 10vh;
+
+}
+
+.mapselected {
+    margin-top: 2vh;
+    margin-left: -2vh;
+}
+
+.maploading {
+    text-align: center;
+}
+
+.buttoncorrinates {
+    background-color: #34adad;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buttoncorrinates:hover {
+    background-color: #2c8a8a;
+    transition: 0.3s;
+}
+
+.noScrollY {
+    overflow-y: hidden;
+}
+
+.CoordinatesHeight {
+    height: 120vh;
+}
+
+.containerCoordinate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.NewsScroll {
+    overflow-y: auto;
+    height: 100vh;
+    direction: ltr;
+}
+
+.content1 {
+    text-align: center;
+}
+
+.homePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.HomepageButton {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #34adad;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 5px;
+
+
+}
+
+.HomepageButton:hover {
+    background-color: #2c8a8a;
+    transition: 0.3s;
+
+}
+
+.HomeButton {
+    margin-top: 3.5vh;
+}
+
+.heroSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 12.5vh 65vh 25vh 70vh;
+    text-align: left;
+}
+
+.contentSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.mainContentSection {
+    width: 65vh;
+    margin-top: -17.5vh;
+}
+
+.mainHeading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10vh;
+    margin-top: -4vh;
+
+    width: 50vh;
+}
+
+.blackSquare {
+    margin-left: 40svh;
+    margin-top: -7.5vh;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: transparent;
+    z-index: 2;
+}
+
+.logo, .coordinates, .Auth, .WeatherPage, .RealtimePollution, .Education .toggle {
+    transition: color 0.3s ease;
+}
+
+.geoerror {
+    text-align: center;
+    margin-bottom: 4vh;
+}
+
+.geoerrorinput {
+    margin-left: 15vh;
+    color: rgba(112, 112, 112, 0.69);
+}
+
+.coordinatesinput {
+    color: rgba(112, 112, 112, 0.69);
+}
+
+.logo, .Auth {
+    font-size: 20px;
+    margin-left: 18vh;
+}
+
+.coordinates {
+    margin-left: 3vh;
+}
+
+.WeatherPage {
+    margin-left: 3vh;
+}
+
+.RealtimePollution {
+    margin-left: 3vh;
+}
+
+.Education {
+    margin-left: 3vh;
+    transition: color 0.3s ease;
+}
+
+.EnviroCareAI {
+    margin-left: 3vh;
+    transition: color 0.3s ease;
+}
+
+.Coordinates {
+    margin-left: 3vh;
+    transition: color 0.3s ease;
+}
+
+.rightItems {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.Auth {
+    margin-left: -30vh;
+    width: 7.5vh;
+}
+
+.toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+    margin-left: -20vh;
+    color: #333;
+}
+
+.weather-app {
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 2vh;
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.app-title {
+    text-align: center;
+    margin: 3vh;
+}
+
+.weather-container {
+    max-width: 950px;
+    margin: 10px auto;
+}
+
+.weatherpollution {
+    text-align: center;
+}
+
+.weathercomponents {
+    margin-top: 2vh;
+}
+
+.selected-day-title {
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.day-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.selected-day {
+    display: flex;
+    align-items: center;
+}
+
+.selected-day p {
+    margin-left: 10px;
+}
+
+.hourly-weather {
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-bottom: 20px;
+    display: flex;
+    margin-left: 3.5%;
+}
+
+.hourly-forecast {
+    text-align: center;
+    margin-right: 12.5px;
+    padding: 15px;
+    border-radius: 12.5px;
+    background-color: #34adad;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    color: #333;
+}
+
+.hourly-forecast p {
+    margin: 5px 0;
+    color: white;
+}
+
+.weather-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.buttoncontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.day-navigation button {
+    background-color: #00796b;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.day-navigation button:hover {
+    background-color: #004d40;
+    transition: 0.5s;
+}
+
+.hourly-forecast:hover {
+    background-color: rgba(52, 173, 173, 0.82);
+    transition: 0.5s;
+}
+
+.day-navigation button:disabled {
+    background-color: rgba(112, 112, 112, 0.69);
+    transition: 0.5s;
+    cursor: not-allowed;
+}
+
+.day-navigation button:not(:last-child) {
+    margin-right: 10px;
+}
+
+.roundedbutton {
+    width: 20vh;
+    margin-left: 2vh;
+    margin-top: 2.5vh;
+    background-color: #34adad;
+    color: white;
+}
+
+.roundedbutton:hover {
+    background-color: rgba(52, 173, 173, 0.84);
+}
+
+.AIHight {
+    height: 100vh;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.AIHeading {
+    text-align: center;
+    margin-top: 12%;
+
+
+}
+
+.AIUnderHeading {
+    text-align: center;
+    font-weight: normal;
+    margin-top: 1%;
+}
+
+.AIInput {
+    width: 30vh;
+    height: 3.5vh;
+    padding-left: 5px;
+}
+
+.input {
+    padding: 10px;
+    font-size: 16px;
+    background-color: transparent;
+    color: green;
+    border: 1px solid rgba(112, 112, 112, 0.69);
+}
+
+.input::placeholder {
+    color: green;
+}
+
+.AIButton {
+    margin-left: 10px;
+    padding: 10px;
+    width: 7.5vh;
+    background-color: #34adad;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.AIButton:hover {
+    background-color: #2c8a8a;
+    border: none;
+}
+
+.AIResponse {
+    margin-top: 2vh;
+
+    max-width: 70%;
+    margin-left: 15%;
+    align-items: center;
+}
+
+.articles {
+    margin: 5vh 5vh -3vh 5vh;
+
+}
+
+.description {
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.articleurl {
+    background-color: #34adad;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.Whitespace {
+    margin-bottom: 30vh;
+}
+
+.ArticleHeading {
+    margin: 5vh 5vh -1vh 5vh;
+}
+
+.ArticleUnderHeading {
+
+    margin: 2vh 5vh 1vh 5vh;
+}
